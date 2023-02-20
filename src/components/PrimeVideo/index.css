@@ -1,0 +1,80 @@
+/*Write your CSS here */
+
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/planets-app/planets-bg-img.png');
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.prime-video-thumbline {
+  height: 350px;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.action-movie-text {
+  font-family: Roboto;
+  font-size: 30px;
+  color: #ffffff;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  width: 90%;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+
+/* .un-order-list {
+  display: flex;
+  background-color: red;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.bg-img {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/planets-app/planets-bg-img.png');
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+.heading {
+  font-family: Roboto;
+  font-size: 40px;
+  color: #05acff;
+  margin-bottom: 40px;
+}  */
+
+.slide-container {
+  width: 90%;
+  margin-bottom: 10px;
+}
+
+.pop-up-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+  align-self: flex-end;
+  background-color: green;
+}
+
+.container-popup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 70%;
+}
